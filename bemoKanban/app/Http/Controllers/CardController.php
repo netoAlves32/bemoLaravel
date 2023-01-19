@@ -76,7 +76,7 @@ class CardController extends Controller
      */
     public function show($id)
     {
-        //
+        return Card::find($id);
     }
 
     /**
