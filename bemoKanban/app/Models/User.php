@@ -23,6 +23,16 @@ class User extends Authenticatable
         'password',
     ];
 
+
+    protected function create(array $data)
+    {
+    return User::create([
+        'name' => $data['name'],
+        'email' => $data['email'],
+        'password' => Hash::make($data['password']),
+        'api_token' => Str::random(60),
+    ]);
+    }
     /**
      * The attributes that should be hidden for serialization.
      *

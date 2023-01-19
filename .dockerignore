@@ -1,0 +1,107 @@
+# flyctl launch added from bemoKanban\.gitignore
+bemoKanban\node_modules
+bemoKanban\public\build
+bemoKanban\public\hot
+bemoKanban\public\storage
+bemoKanban\storage\*.key
+bemoKanban\vendor
+bemoKanban\**\.env
+bemoKanban\**\.env.backup
+bemoKanban\**\.env.production
+bemoKanban\**\.phpunit.result.cache
+bemoKanban\**\Homestead.json
+bemoKanban\**\Homestead.yaml
+bemoKanban\**\auth.json
+bemoKanban\**\npm-debug.log
+bemoKanban\**\yarn-error.log
+bemoKanban\.fleet
+bemoKanban\.idea
+bemoKanban\.vscode
+
+# flyctl launch added from bemoKanban\bootstrap\cache\.gitignore
+bemoKanban\bootstrap\cache\**\*
+!bemoKanban\bootstrap\cache\**\.gitignore
+
+# flyctl launch added from bemoKanban\database\.gitignore
+bemoKanban\database\**\*.sqlite*
+
+# flyctl launch added from bemoKanban\storage\app\.gitignore
+bemoKanban\storage\app\**\*
+!bemoKanban\storage\app\**\public
+!bemoKanban\storage\app\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\app\public\.gitignore
+bemoKanban\storage\app\public\**\*
+!bemoKanban\storage\app\public\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\framework\.gitignore
+bemoKanban\storage\framework\**\compiled.php
+bemoKanban\storage\framework\**\config.php
+bemoKanban\storage\framework\**\down
+bemoKanban\storage\framework\**\events.scanned.php
+bemoKanban\storage\framework\**\maintenance.php
+bemoKanban\storage\framework\**\routes.php
+bemoKanban\storage\framework\**\routes.scanned.php
+bemoKanban\storage\framework\**\schedule-*
+bemoKanban\storage\framework\**\services.json
+
+# flyctl launch added from bemoKanban\storage\framework\cache\.gitignore
+bemoKanban\storage\framework\cache\**\*
+!bemoKanban\storage\framework\cache\**\data
+!bemoKanban\storage\framework\cache\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\framework\cache\data\.gitignore
+bemoKanban\storage\framework\cache\data\**\*
+!bemoKanban\storage\framework\cache\data\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\framework\sessions\.gitignore
+bemoKanban\storage\framework\sessions\**\*
+!bemoKanban\storage\framework\sessions\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\framework\testing\.gitignore
+bemoKanban\storage\framework\testing\**\*
+!bemoKanban\storage\framework\testing\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\framework\views\.gitignore
+bemoKanban\storage\framework\views\**\*
+!bemoKanban\storage\framework\views\**\.gitignore
+
+# flyctl launch added from bemoKanban\storage\logs\.gitignore
+bemoKanban\storage\logs\**\*
+!bemoKanban\storage\logs\**\.gitignore
+
+# flyctl launch added from bemoKanban\vendor\hamcrest\hamcrest-php\.gitignore
+bemoKanban\vendor\hamcrest\hamcrest-php\**\composer.lock
+bemoKanban\vendor\hamcrest\hamcrest-php\**\vendor
+
+# flyctl launch added from bemoKanban\vendor\psr\container\.gitignore
+bemoKanban\vendor\psr\container\**\composer.lock
+bemoKanban\vendor\psr\container\**\composer.phar
+bemoKanban\vendor\psr\container\vendor
+
+# flyctl launch added from bemoKanban\vendor\psr\event-dispatcher\.gitignore
+bemoKanban\vendor\psr\event-dispatcher\vendor
+bemoKanban\vendor\psr\event-dispatcher\**\composer.lock
+
+# flyctl launch added from bemoKanban\vendor\psr\http-factory\.gitignore
+bemoKanban\vendor\psr\http-factory\**\composer.lock
+bemoKanban\vendor\psr\http-factory\**\vendor
+
+# flyctl launch added from bemoKanban\vendor\sebastian\resource-operations\.gitignore
+bemoKanban\vendor\sebastian\resource-operations\.idea
+bemoKanban\vendor\sebastian\resource-operations\.php_cs.cache
+bemoKanban\vendor\sebastian\resource-operations\build\FunctionSignatureMap.php
+bemoKanban\vendor\sebastian\resource-operations\composer.lock
+bemoKanban\vendor\sebastian\resource-operations\vendor
+bemoKanban\vendor\sebastian\resource-operations\.phpunit.result.cache
+
+# flyctl launch added from bemoKanban\vendor\sebastian\version\.gitignore
+bemoKanban\vendor\sebastian\version\.php_cs.cache
+bemoKanban\vendor\sebastian\version\.idea
+
+# flyctl launch added from bemoKanban\vendor\spatie\ignition\resources\compiled\.gitignore
+bemoKanban\vendor\spatie\ignition\resources\compiled\**\*
+!bemoKanban\vendor\spatie\ignition\resources\compiled\**\.gitignore
+!bemoKanban\vendor\spatie\ignition\resources\compiled\**\ignition.css
+!bemoKanban\vendor\spatie\ignition\resources\compiled\**\ignition.js
+fly.toml
